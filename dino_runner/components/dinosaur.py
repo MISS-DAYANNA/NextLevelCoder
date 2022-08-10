@@ -8,7 +8,7 @@ class Dinosaur(Sprite):
     Y_POS_DUCK = 340
     JUMP_VEL = 8.5
 
-    def __init(self):
+    def __init__(self):
         self.image = RUNNING[0]
         self.dino_rect = self.image.get_rect()
         self.dino_rect.x = self.X_POS
